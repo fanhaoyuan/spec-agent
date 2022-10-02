@@ -1,0 +1,21 @@
+{
+    "name": "@fansy/spec-agent",
+    "version": "0.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "postinstall": "node dist/install.js",
+        "build": "rimraf dist && tsc"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.7.23",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.8.4"
+    },
+    "dependencies": {
+        "@fansy/commit-msg-validator": "^1.0.0",
+        "@fansy/eslint-config": "^1.1.0",
+        "@fansy/prettier-config": "^1.0.0"
+    }
+}
