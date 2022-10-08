@@ -1,0 +1,3 @@
+{
+    "extends": ["@fansy/spec-agent"]
+}
